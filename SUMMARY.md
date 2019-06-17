@@ -5,6 +5,7 @@
 ## Understanding the WebInterface
 
 * [QuickStart: Setting up GetBeaned on your server](understanding-the-webinterface/tutorial-setting-up-your-server-for-the-first-time.md)
+* [Setting up logging](understanding-the-webinterface/setting-up-logging.md)
 
 ## Developper documentation
 
