@@ -45,7 +45,7 @@ An API is available on request to access the data on the GetBeaned website to im
 
 #### If you are a discord server owner
 
-Please install the bot and spread the word. Don't forget to report spambots or new types of spam that aren't currently detected by the GetBeaned algorithms.
+Please[ install the bot](bot-documentation/tutorial-setting-up-your-server-for-the-first-time.md) and spread the word. Don't forget to report spambots or new types of spam that aren't currently detected by the GetBeaned algorithms.
 
 #### If you are a discord user
 

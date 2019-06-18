@@ -1,10 +1,18 @@
 # Changelog
 
+## 1.0.0 - 18/06/2019
 
+### Added
 
-## To be continued
+* Re-made the docs using GitBook
+* Move to the getbeaned.me domain
+* The API can now be considered stable.
 
-## 0.1.0 - 02/02/2012
+## 0.1.1 -&gt; 1.0.0
+
+The changelog for this versions is the git log available [here](https://github.com/getbeaned/GetBeaned-DiscordBot/commits/master) and [here](https://github.com/getbeaned/GetBeaned-WebInterface/commits/master)
+
+## 0.1.0 - 02/02/2019
 
 Published the repositories to Git after this release.
 

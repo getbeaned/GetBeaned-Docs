@@ -8,6 +8,7 @@
 * [QuickStart: Setting up GetBeaned on your server](bot-documentation/tutorial-setting-up-your-server-for-the-first-time.md)
 * [List of commands](bot-documentation/list-of-commands.md)
 * [Levels and permissions](bot-documentation/levels-and-permissions.md)
+* [Report spambots that get past the filter](bot-documentation/report-spambots-that-get-past-the-filter.md)
 
 ## Understanding the WebInterface
 

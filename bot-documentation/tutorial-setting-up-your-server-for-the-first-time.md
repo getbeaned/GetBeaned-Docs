@@ -48,7 +48,7 @@ However, you don't have to give GetBeaned permissions to restricted channels whe
 
 #### Permissions
 
-First, add yourself as a server admin. Use the `+add_admin @your_discord_name`command to be able to edit settings on the webinterface.
+First, add yourself as a [server admin](levels-and-permissions.md). Use the `+add_admin @your_discord_name`command to be able to edit settings on the webinterface.
 
 If you have moderators, you can add them all using the command `+add_moderator [a role ID]`to give them moderation permissions on the bot.
 
@@ -62,7 +62,7 @@ On discord, type `+urls`to get a direct link to your server webpage. If you aren
 {% tab title="The AutoMod" %}
 The automod is already configured. You just have to enable it by clicking the box near Enable AutoMod
 
-![Click that button. Don&apos;t hit submit yet.](../.gitbook/assets/2019-06-17.14-38-46.png)
+![Click that button. Don&apos;t hit submit yet. Check the other tabs first :\)](../.gitbook/assets/2019-06-17.14-38-46.png)
 {% endtab %}
 
 {% tab title="The AutoTriggers" %}
