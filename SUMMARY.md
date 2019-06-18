@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome to the GetBeaned documentation](README.md)
+* [Changelog](changelog.md)
 
 ## Bot documentation
 
