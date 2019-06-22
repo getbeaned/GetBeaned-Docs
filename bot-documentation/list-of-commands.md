@@ -38,6 +38,7 @@ Trusted users can also use normal Users commands
 | `+kick {users} <reason>` | Kick the users from your server. They will be able to rejoin using a new invite link. |
 | `+message_info` | Inspect a message sent by an user and display some informations like the automod logs for this message, the user profile, ... |
 | `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
+| `+purge {arguments}`  | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
 {% endtab %}
 
 {% tab title="Moderators" %}
