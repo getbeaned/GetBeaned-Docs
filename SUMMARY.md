@@ -11,11 +11,11 @@
 * [Report spambots that get past the filter](bot-documentation/report-spambots-that-get-past-the-filter.md)
 * [Using the purge command to remove messages](bot-documentation/using-the-purge-command-to-remove-messages.md)
 
-## Understanding the WebInterface
+## Understanding the Web Interface <a id="understanding-the-webinterface"></a>
 
 * [Setting up logging](understanding-the-webinterface/setting-up-logging.md)
 
-## Developper documentation
+## Developer documentation <a id="developper-documentation"></a>
 
 * [The GetBeaned API](developper-documentation/the-getbeaned-api.md)
 

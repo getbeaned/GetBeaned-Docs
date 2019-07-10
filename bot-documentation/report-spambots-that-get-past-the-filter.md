@@ -5,14 +5,14 @@
 Run the simple `+doctor` command and check that `AutoInspect` is enabled and that `AutoMod` and `AutoTriggers` are also green.
 
 {% hint style="success" %}
- If you can, please use the webinterface to ensure that specific `AutoInspect` and `AutoTriggers` are also activated. 
+ If you can, please use the web interface to ensure that specific `AutoInspect`and `AutoTriggers` are also activated. 
 {% endhint %}
 
-### Enable developper mode
+### Enable Developer mode
 
-If you haven't already, in your Dicord client settings, under Appearance, enable the Developper Mode
+If you haven't already, in your Discord client settings, under Appearance, enable the Developer Mode.
 
-![Ensure that &quot;Developper mode&quot; is checked!](../.gitbook/assets/2019-06-18.10-48-05.png)
+![Ensure that &quot;Developer mode&quot; is checked!](../.gitbook/assets/2019-06-18.10-48-05.png)
 
 ### Get the message ID
 
@@ -28,5 +28,5 @@ Use the command `+message_info [the message ID you copied]` to ask the bot for l
 
 ### Send your report
 
-Send your screenshot and some explanation on what was wrong on the \#support channels on the [Support Server](https://discord.gg/Qr59gMH).
+Send your screenshot and some explanation on what was wrong on the \#support channel on the [Support Server](https://discord.gg/Qr59gMH).
 

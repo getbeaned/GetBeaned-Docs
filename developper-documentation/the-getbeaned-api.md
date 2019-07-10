@@ -87,7 +87,7 @@ Error when saving the new user
 
 {% api-method method="get" host="https://getbeaned.api-d.com" path="/api/users/<int:guild\_id>/<int:user\_id>/counters/" %}
 {% api-method-summary %}
-Api Users Counter
+API Users Counter
 {% endapi-method-summary %}
 
 {% api-method-description %}

@@ -25,12 +25,12 @@ Select your server in the list and click the Authorise button
 Return to the discord application. Click on your server name to open the server settings. Under roles, select the GetBeaned role and move it to the top.
 
 {% hint style="info" %}
-The bot role needs to be higher than a user top role if you want GetBeaned to be able to kick or ban them.
+The bot role needs to be higher than the top user role if you want GetBeaned to be able to kick or ban them.
 
 You don't have to place GetBeaned higher than admins.
 {% endhint %}
 
-Click the green `Save` button, then return to the chat.
+Click on the green `Save` button, then return to the chat.
 
 #### Verify that the permissions are valid
 
@@ -39,7 +39,7 @@ Use the `+doctor`command somewhere on the server and pay attention to the`Bot Pe
 ![](../.gitbook/assets/capture-de-cran-2019-06-17-a-14.29.06.png)
 
 {% hint style="warning" %}
-If it's red, it means that the bot has some permissions problems on some of the channels. Please check that GetBeaned have the necessary permissions in channels you want to protect.
+If it's red, it means that the bot has some permissions problems on some of the channels. Please check that GetBeaned has the necessary permissions in channels that you want to protect.
 
 However, you don't have to give GetBeaned permissions to restricted channels where only trusted users can speak.
 {% endhint %}
@@ -48,13 +48,13 @@ However, you don't have to give GetBeaned permissions to restricted channels whe
 
 #### Permissions
 
-First, add yourself as a [server admin](levels-and-permissions.md). Use the `+add_admin @your_discord_name`command to be able to edit settings on the webinterface.
+First, add yourself as a [server admin](levels-and-permissions.md). Use the `+add_admin @your_discord_name`command to be able to edit settings on the web interface.
 
 If you have moderators, you can add them all using the command `+add_moderator [a role ID]`to give them moderation permissions on the bot.
 
 #### Enable the Auto-functions
 
-On discord, type `+urls`to get a direct link to your server webpage. If you aren't logged in on the website, do that now by clicking the "login" button on the top bar.
+On discord, type `+urls`to get a direct link to your server webpage. If you aren't logged in on the website, do that by clicking the "Login" button on the top bar.
 
 ![Click on the link to access your server settings](../.gitbook/assets/2019-06-17.14-36-01.png)
 

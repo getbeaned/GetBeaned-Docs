@@ -1,12 +1,12 @@
 # List of commands
 
-On this page, we'll not use the default prefix of `+`. Of course, your server prefix may have been changed on the web interface. In any case, add the correct prefix before starting a command.
+On this page, we'll use the default prefix of `+`. Of course, your server prefix may have been changed on the web interface. In any case, add the correct prefix before starting a command.
 
 {% hint style="info" %}
 To understand the list of commands, you'll have to remember the following:
 
 * Arguments between brackets are `[required]`
-* Arguments in greater-than signs are `<optionnal>`
+* Arguments in greater-than signs are `<optional>`
 * Arguments in curly braces are`{greedy}`, meaning you can have one or more argument of the same type.
 
 For example, in the command `+ban {users} <reason>`, you can ban one or more users with an optional reason. 
@@ -19,11 +19,11 @@ For example, in the command `+ban {users} <reason>`, you can ban one or more use
 | `+help` | Get a link to this webpage |
 | `+urls <target_member>` | Get the server online logs, and webpages about a specific user. |
 | `+invite` | Get a bot invite link to [install GetBeaned on your server](tutorial-setting-up-your-server-for-the-first-time.md) |
-| `+info` | Show some information about the bot, as the author and essential commands |
+| `+info` | Show some information about the bot like the author and essential commands |
 | `+level` | Command to see your [permissions level](levels-and-permissions.md) on a server. |
 | `+ping` | Check the health of the connection between the bot and Discord. |
 | `+permissions_check` | Run a quick check of the bot permissions on the channel, useful to figure out why the bot isn't working properly. |
-| `+hierarchy [user]` | Inspect the hierachy between you and another user and inform you of any problems that may arise unning commands on them. |
+| `+hierarchy [user]` | Inspect the hierarchy between you and another user and inform you of any problems that may arise using commands on them. |
 | `+doctor` | Make the bot deeply check it's configuration and report any potential problem found. |
 | `+channel_id` | Gives you the ID of a channel. Used to configure logs. |
 {% endtab %}
@@ -33,10 +33,10 @@ Trusted users can also use normal Users commands
 
 | Command | Explanation |
 | :--- | :--- |
-| `+note {users} [reason]` | Add a simple note to the user profile. Don't do anything by itself, this mostly serve as a remainder from staff or for very minor infractions. |
+| `+note {users} [reason]` | Add a simple note to the user profile. Doesn't do anything by itself, this mostly serves as a reminder from staff or for very minor infractions. |
 | `+warn {users} <reason>` | Warns users on the server. While warns by themselves don't do anything, thresholds apply to warns and users may get kicked if they reach it. |
 | `+kick {users} <reason>` | Kick the users from your server. They will be able to rejoin using a new invite link. |
-| `+message_info` | Inspect a message sent by an user and display some informations like the automod logs for this message, the user profile, ... |
+| `+message_info` | Inspect a message sent by an user and display some information like the automod logs for this message, the user profile, etc. |
 | `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
 | `+purge {arguments}`  | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
 {% endtab %}
@@ -46,9 +46,9 @@ Moderators can also use any command Trusted users can.
 
 | Command | Explanation |
 | :--- | :--- |
-| `+ban {users} <reason>` | Ban the users provided in the command, with an optionnal reason. |
+| `+ban {users} <reason>` | Ban the users provided in the command, with an optional reason. |
 | `+softban {users} <reason>` | Ban and unban the users given to remove the recent messages they sent. You may add a reason to be displayed. |
-| `+mute {users} <reason>` | Mute users on the server. They won't be able to speak until unmuted or until the leave and rejoin the server. **This command required a specific GetBeaned\_Muted role, that can be setup by server admins with the `+create_muted_role` command.** |
+| `+mute {users} <reason>` | Mute users on the server. They won't be able to speak until unmuted or until they leave and rejoin the server. **This command requires a specific GetBeaned\_Muted role, that can be setup by server admins with the `+create_muted_role` command.** |
 | `+unmute {muted_users} <reason>` | Remove the GetBeaned\_Muted role from users, to let them talk again. |
 | `+unban {banned_users} <reason>` | Unban users from your server. They'll be able to rejoin using a new invite. |
 | `+automod_debug [message]` | Analyse the message provided in the message argument. This will return a score for you to use. |
@@ -70,7 +70,7 @@ Admins can also use any command Moderators can.
       </td>
       <td style="text-align:left">
         <p>Add the specified users to the admin rank on the bot, allowing them to
-          access admin commands and edit server settings on the Webinterface.</p>
+          access admin commands and edit server settings on the Web interface.</p>
         <p>There are three ways to add admins (the <code>Administrator</code>permission,
           using roles or using users). If you want the admins you add <b>to be able to edit settings</b> on
           the web interface, <b>you need to add them using users and not roles.</b>
@@ -82,7 +82,7 @@ Admins can also use any command Moderators can.
       </td>
       <td style="text-align:left">
         <p>Add the specified user to the moderator role on the bot. To remove users
-          or roles from the ranks, use the webinterface.</p>
+          or roles from the ranks, use the web interface.</p>
         <p>You can also give the Ban permission to users to make them moderators.</p>
       </td>
     </tr>
@@ -100,7 +100,7 @@ Admins can also use any command Moderators can.
       <td style="text-align:left">Ban users or roles from using GetBeaned commands.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>+crate_muted_role</code>
+      <td style="text-align:left"><code>+create_muted_role</code>
       </td>
       <td style="text-align:left">Create or update a GetBeaned_Muted role to enable the <code>+mute</code>and <code>+unmute</code> commands
         on your server. If you messed up the role permissions, re-running the command
@@ -109,7 +109,7 @@ Admins can also use any command Moderators can.
     <tr>
       <td style="text-align:left"><code>+import_bans</code>
       </td>
-      <td style="text-align:left">Import your server bans on the webinterface for easy viewing and complete
+      <td style="text-align:left">Import your server bans on the Web interface for easy viewing and complete
         history. This can only be run once per server, and the command may take
         some time to run.</td>
     </tr>
@@ -131,9 +131,9 @@ If you aren't sure, you **aren't** a bot moderator.
 | :--- | :--- |
 | `+pm [user] [message]` | Use the bot to send a private message to a user. |
 | `+cache_status` | Show the status of the caches used by the bot. |
-| `+cache_cleanup` | Cleanup the cache by removing expired entries immediatly. May help freeing some ram. |
-| `+update_analytics` | Send an updated Guild count to some bot lists. No personnal information is sent by the bot. |
-| `+refresh_user {users}` | Refresh users account information on the webinterface. |
+| `+cache_cleanup` | Cleanup the cache by removing expired entries immediately. May help freeing some ram. |
+| `+update_analytics` | Send an updated Guild count to some bot lists. No personal information is sent by the bot. |
+| `+refresh_user {users}` | Refresh users account information on the web interface. |
 {% endtab %}
 {% endtabs %}
 
