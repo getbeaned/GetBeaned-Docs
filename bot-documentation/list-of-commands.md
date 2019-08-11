@@ -35,10 +35,8 @@ Trusted users can also use normal Users commands
 | :--- | :--- |
 | `+note {users} [reason]` | Add a simple note to the user profile. Doesn't do anything by itself, this mostly serves as a reminder from staff or for very minor infractions. |
 | `+warn {users} <reason>` | Warns users on the server. While warns by themselves don't do anything, thresholds apply to warns and users may get kicked if they reach it. |
-| `+kick {users} <reason>` | Kick the users from your server. They will be able to rejoin using a new invite link. |
 | `+message_info` | Inspect a message sent by an user and display some information like the automod logs for this message, the user profile, etc. |
 | `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
-| `+purge {arguments}`  | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
 {% endtab %}
 
 {% tab title="Moderators" %}
@@ -48,10 +46,13 @@ Moderators can also use any command Trusted users can.
 | :--- | :--- |
 | `+ban {users} <reason>` | Ban the users provided in the command, with an optional reason. |
 | `+softban {users} <reason>` | Ban and unban the users given to remove the recent messages they sent. You may add a reason to be displayed. |
+| `+kick {users} <reason>` | Kick the users from your server. They will be able to rejoin using a new invite link. |
 | `+mute {users} <reason>` | Mute users on the server. They won't be able to speak until unmuted or until they leave and rejoin the server. **This command requires a specific GetBeaned\_Muted role, that can be setup by server admins with the `+create_muted_role` command.** |
 | `+unmute {muted_users} <reason>` | Remove the GetBeaned\_Muted role from users, to let them talk again. |
 | `+unban {banned_users} <reason>` | Unban users from your server. They'll be able to rejoin using a new invite. |
 | `+automod_debug [message]` | Analyse the message provided in the message argument. This will return a score for you to use. |
+| `+purge {arguments}`  | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
+
 {% endtab %}
 
 {% tab title="Admins" %}
