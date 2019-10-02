@@ -26,6 +26,7 @@ For example, in the command `+ban {users} <reason>`, you can ban one or more use
 | `+hierarchy [user]` | Inspect the hierarchy between you and another user and inform you of any problems that may arise using commands on them. |
 | `+doctor` | Make the bot deeply check it's configuration and report any potential problem found. |
 | `+channel_id` | Gives you the ID of a channel. Used to configure logs. |
+| `+suggest` | Suggest a feature to add to the bot. Can also be used to report bugs. |
 {% endtab %}
 
 {% tab title="Trusted" %}
