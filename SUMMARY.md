@@ -10,6 +10,7 @@
 * [Levels and permissions](bot-documentation/levels-and-permissions.md)
 * [Report spambots that get past the filter](bot-documentation/report-spambots-that-get-past-the-filter.md)
 * [Using the purge command to remove messages](bot-documentation/using-the-purge-command-to-remove-messages.md)
+* [VIP Servers](bot-documentation/vip-servers.md)
 
 ## Understanding the Web Interface <a id="understanding-the-webinterface"></a>
 

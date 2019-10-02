@@ -9,7 +9,7 @@ To understand the list of commands, you'll have to remember the following:
 * Arguments in greater-than signs are `<optional>`
 * Arguments in curly braces are`{greedy}`, meaning you can have one or more argument of the same type.
 
-For example, in the command `+ban {users} <reason>`, you can ban one or more users with an optional reason. 
+For example, in the command `+ban {users} <reason>`, you can ban one or more users with an optional reason.
 {% endhint %}
 
 {% tabs %}
@@ -51,76 +51,71 @@ Moderators can also use any command Trusted users can.
 | `+unmute {muted_users} <reason>` | Remove the GetBeaned\_Muted role from users, to let them talk again. |
 | `+unban {banned_users} <reason>` | Unban users from your server. They'll be able to rejoin using a new invite. |
 | `+automod_debug [message]` | Analyse the message provided in the message argument. This will return a score for you to use. |
-| `+purge {arguments}`  | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
-
+| `+purge {arguments}` | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
 {% endtab %}
 
 {% tab title="Admins" %}
 Admins can also use any command Moderators can.
 
+| Command | Explanation |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Command</th>
-      <th style="text-align:left">Explanation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><code>+add_admin {roles_or_users}</code>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><code>+add_admin {roles_or_users}</code>
+      </th>
+      <th style="text-align:left">
         <p>Add the specified users to the admin rank on the bot, allowing them to
           access admin commands and edit server settings on the Web interface.</p>
         <p>There are three ways to add admins (the <code>Administrator</code>permission,
           using roles or using users). If you want the admins you add <b>to be able to edit settings</b> on
           the web interface, <b>you need to add them using users and not roles.</b>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><code>+add_moderator {roles_or_users}</code>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><code>+add_moderator {roles_or_users}</code>
+      </th>
+      <th style="text-align:left">
         <p>Add the specified user to the moderator role on the bot. To remove users
           or roles from the ranks, use the web interface.</p>
         <p>You can also give the Ban permission to users to make them moderators.</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><code>+add_trusted_member {roles_or_users}</code>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><code>+add_trusted_member {roles_or_users}</code>
+      </th>
+      <th style="text-align:left">
         <p>Add members to the Trusted rank, giving them access to the Trusted commands.</p>
         <p>You can also give the kick permission to users to make them Trusted.</p>
-      </td>
+      </th>
     </tr>
-    <tr>
-      <td style="text-align:left"><code>+add_banned_member {roles_or_users}</code>
-      </td>
-      <td style="text-align:left">Ban users or roles from using GetBeaned commands.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>+create_muted_role</code>
-      </td>
-      <td style="text-align:left">Create or update a GetBeaned_Muted role to enable the <code>+mute</code>and <code>+unmute</code> commands
-        on your server. If you messed up the role permissions, re-running the command
-        should fix the role.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>+import_bans</code>
-      </td>
-      <td style="text-align:left">Import your server bans on the Web interface for easy viewing and complete
-        history. This can only be run once per server, and the command may take
-        some time to run.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>+dehoist_users</code>
-      </td>
-      <td style="text-align:left">Run the configured DeHoister on every member on the server.</td>
-    </tr>
-  </tbody>
-</table>
+  </thead>
+  <tbody></tbody>
+</table>| `+add_banned_member {roles_or_users}` | Ban users or roles from using GetBeaned commands. |
+| :--- | :--- |
+
+
+| `+create_muted_role` | Create or update a GetBeaned\_Muted role to enable the `+mute`and `+unmute` commands on your server. If you messed up the role permissions, re-running the command should fix the role. |
+| :--- | :--- |
+
+
+| `+import_bans` | Import your server bans on the Web interface for easy viewing and complete history. This can only be run once per server, and the command may take some time to run. |
+| :--- | :--- |
+
+
+| `+dehoist_users` | Run the configured DeHoister on every member on the server. |
+| :--- | :--- |
 {% endtab %}
 
 {% tab title="Bot staff" %}
