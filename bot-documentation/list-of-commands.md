@@ -37,7 +37,6 @@ Trusted users can also use normal Users commands
 | `+note {users} [reason]` | Add a simple note to the user profile. Doesn't do anything by itself, this mostly serves as a reminder from staff or for very minor infractions. |
 | `+warn {users} <reason>` | Warns users on the server. While warns by themselves don't do anything, thresholds apply to warns and users may get kicked if they reach it. |
 | `+message_info` | Inspect a message sent by an user and display some information like the automod logs for this message, the user profile, etc. |
-| `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
 | `+rename [user] <nickname>`  | Rename a user with an optional nickname. If nickname is not specified, removes the nickname |
 {% endtab %}
 
@@ -52,6 +51,7 @@ Moderators can also use any command Trusted users can.
 | `+mute <duration>{users} <reason>` | Mute users on the server. They won't be able to speak until unmuted or until they leave and rejoin the server. **This command requires a specific GetBeaned\_Muted role, that can be setup by server admins with the `+create_muted_role` command.** |
 | `+unmute {muted_users} <reason>` | Remove the GetBeaned\_Muted role from users, to let them talk again. |
 | `+unban {banned_users} <reason>` | Unban users from your server. They'll be able to rejoin using a new invite. |
+| `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
 | `+automod_debug [message]` | Analyse the message provided in the message argument. This will return a score for you to use. |
 | `+purge {arguments}` | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
 {% endtab %}
