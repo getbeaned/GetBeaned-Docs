@@ -46,10 +46,10 @@ Moderators can also use any command Trusted users can.
 
 | Command | Explanation |
 | :--- | :--- |
-| `+ban {users} <reason>` | Ban the users provided in the command, with an optional reason. |
+| `+ban <duration>{users} <reason>` | Ban the users provided in the command, with an optional reason. |
 | `+softban {users} <reason>` | Ban and unban the users given to remove the recent messages they sent. You may add a reason to be displayed. |
 | `+kick {users} <reason>` | Kick the users from your server. They will be able to rejoin using a new invite link. |
-| `+mute {users} <reason>` | Mute users on the server. They won't be able to speak until unmuted or until they leave and rejoin the server. **This command requires a specific GetBeaned\_Muted role, that can be setup by server admins with the `+create_muted_role` command.** |
+| `+mute <duration>{users} <reason>` | Mute users on the server. They won't be able to speak until unmuted or until they leave and rejoin the server. **This command requires a specific GetBeaned\_Muted role, that can be setup by server admins with the `+create_muted_role` command.** |
 | `+unmute {muted_users} <reason>` | Remove the GetBeaned\_Muted role from users, to let them talk again. |
 | `+unban {banned_users} <reason>` | Unban users from your server. They'll be able to rejoin using a new invite. |
 | `+automod_debug [message]` | Analyse the message provided in the message argument. This will return a score for you to use. |
