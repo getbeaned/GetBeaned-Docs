@@ -126,10 +126,12 @@ If you aren't sure, you **aren't** a bot moderator.
 | Command | Explanation |
 | :--- | :--- |
 | `+pm [user] [message]` | Use the bot to send a private message to a user. |
+| `+end_pm` | End your DM session with an user |
 | `+cache_status` | Show the status of the caches used by the bot. |
 | `+cache_cleanup` | Cleanup the cache by removing expired entries immediately. May help freeing some ram. |
 | `+update_analytics` | Send an updated Guild count to some bot lists. No personal information is sent by the bot. |
 | `+refresh_user {users}` | Refresh users account information on the web interface. |
+| `+jsk`  | See the [Jishaku docs](https://jishaku.readthedocs.io/en/latest/cog.html#commands) |
 {% endtab %}
 
 {% tab title="Other" %}
