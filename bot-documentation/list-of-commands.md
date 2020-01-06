@@ -63,59 +63,15 @@ Admins can also use any command Moderators can.
 
 | Command | Explanation |
 | :--- | :--- |
-
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><code>+add_admin {roles_or_users}</code>
-      </th>
-      <th style="text-align:left">
-        <p>Add the specified users to the admin rank on the bot, allowing them to
-          access admin commands and edit server settings on the Web interface.</p>
-        <p>There are three ways to add admins (the <code>Administrator</code>permission,
-          using roles or using users). If you want the admins you add <b>to be able to edit settings</b> on
-          the web interface, <b>you need to add them using users and not roles.</b>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><code>+add_moderator {roles_or_users}</code>
-      </th>
-      <th style="text-align:left">
-        <p>Add the specified user to the moderator role on the bot. To remove users
-          or roles from the ranks, use the web interface.</p>
-        <p>You can also give the Ban permission to users to make them moderators.</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table><table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><code>+add_trusted_member {roles_or_users}</code>
-      </th>
-      <th style="text-align:left">
-        <p>Add members to the Trusted rank, giving them access to the Trusted commands.</p>
-        <p>You can also give the kick permission to users to make them Trusted.</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>| `+create_muted_role` | Create or update a GetBeaned\_Muted role to enable the `+mute`and `+unmute` commands on your server. If you messed up the role permissions, re-running the command should fix the role. |
-| :--- | :--- |
-
-
+| `+add_admin {roles_or_users}` | Add the specified users to the admin rank on the bot, allowing them to access admin commands and edit server settings on the Web interface.
+There are three ways to add admins (the `Administrator` permission, using roles or using users). If you want the admins you add **to be able to edit settings** on the web interface, **you need to add them using users and not roles.** |
+| `+add_moderator {roles_or_users}` | Add the specified user to the moderator role on the bot. To remove users or roles from the ranks, use the web interface.
+You can also give the Ban permission to users to make them moderators. |
+| `+add_trusted_member {roles_or_users}` | Add members to the Trusted rank, giving them access to the Trusted commands.
+You can also give the kick permission to users to make them Trusted. |
+| `+create_muted_role` | Create or update a GetBeaned\_Muted role to enable the `+mute`and `+unmute` commands on your server. If you messed up the role permissions, re-running the command should fix the role. |
 | `+import_bans` | Import your server bans on the Web interface for easy viewing and complete history. This can only be run once per server, and the command may take some time to run. |
-| :--- | :--- |
-
-
 | `+dehoist_users` | Run the configured DeHoister on every member on the server. |
-| :--- | :--- |
 {% endtab %}
 
 {% tab title="Bot staff" %}
