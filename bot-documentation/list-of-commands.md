@@ -55,6 +55,7 @@ Moderators can also use any command Trusted users can.
 | `+unmute {muted_users} <reason>` | Remove the GetBeaned\_Muted role from users, to let them talk again. |
 | `+unban {banned_users} <reason>` | Unban users from your server. They'll be able to rejoin using a new invite. |
 | `+automod_debug [message]` | Analyse the message provided in the message argument. This will return a score for you to use. |
+| `+automod_logs [message]` | Returns the automod logs for a given message ID |
 {% endtab %}
 
 {% tab title="Admins" %}
@@ -129,6 +130,14 @@ If you aren't sure, you **aren't** a bot moderator.
 | `+cache_cleanup` | Cleanup the cache by removing expired entries immediately. May help freeing some ram. |
 | `+update_analytics` | Send an updated Guild count to some bot lists. No personal information is sent by the bot. |
 | `+refresh_user {users}` | Refresh users account information on the web interface. |
+{% endtab %}
+
+{% tab title="Other" %}
+VIPs are special users of the bot. While they don't get any special moderation level, they can access some commands reserved to them. There are sevral ways of becoming a VIP, most of them are detailed in the [VIP Servers](vip-servers.md) docs. Commands for VIP **must** be ran in the \#vips channel of the GetBeaned Support Server
+
+| Command | Condition | Explanation |
+| :--- | :--- | :--- |
+| `+make_vip [guild]` | VIP and owner of the guild | Give a given guild ID VIP perms on the bot. This will allow the guild to use special parameters. For more info, see the [VIP Servers](vip-servers.md) docs. |
 {% endtab %}
 {% endtabs %}
 
