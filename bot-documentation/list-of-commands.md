@@ -39,7 +39,8 @@ Trusted users can also use normal Users commands
 | `+message_info` | Inspect a message sent by an user and display some information like the automod logs for this message, the user profile, etc. |
 | `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
 | `+purge {arguments}` | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
-| `+rename [user] <nickname>`  | Rename a user with an optional nickname. If nickname is not specified, removes the nickname |
+| `+rename [user] <nickname>` | Rename a user with an optional nickname. If nickname is not specified, removes the nickname |
+| `+inspect [user/message/channel/...]` | Provides information about a given ID or name, and try to guess what that object is. |
 {% endtab %}
 
 {% tab title="Moderators" %}
@@ -104,11 +105,7 @@ Admins can also use any command Moderators can.
     </tr>
   </thead>
   <tbody></tbody>
-</table>| `+add_banned_member {roles_or_users}` | Ban users or roles from using GetBeaned commands. |
-| :--- | :--- |
-
-
-| `+create_muted_role` | Create or update a GetBeaned\_Muted role to enable the `+mute`and `+unmute` commands on your server. If you messed up the role permissions, re-running the command should fix the role. |
+</table>| `+create_muted_role` | Create or update a GetBeaned\_Muted role to enable the `+mute`and `+unmute` commands on your server. If you messed up the role permissions, re-running the command should fix the role. |
 | :--- | :--- |
 
 
