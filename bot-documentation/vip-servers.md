@@ -24,5 +24,5 @@ Most of these features either could be abused or are work-intensive and require 
 
 ### I can't pay, can I still get a VIP server ?
 
-Yes, please send a message explaining why you think you'd use one on the support server, we'll get back to you.
+Yes, please send a message explaining why you think you'd use one on the [support server](https://discord.gg/gT5pdgP), we'll get back to you.
 
