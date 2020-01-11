@@ -81,7 +81,7 @@ Tl;Dr: Get the channel ID of a channel you want to log in \(`+channel_id`can hel
 {% endhint %}
 {% endtab %}
 
-{% tab title="Optionnal functions" %}
+{% tab title="Optional functions" %}
 #### Thresholds
 
 Check the box to enable **thresholds**. This will make Getbeaned kick/ban repeat offenders without action from your mod staff
