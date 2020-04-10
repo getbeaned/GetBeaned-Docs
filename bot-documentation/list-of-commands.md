@@ -38,7 +38,7 @@ Trusted users can also use normal Users commands
 | `+warn {users} <reason>` | Warns users on the server. While warns by themselves don't do anything, thresholds apply to warns and users may get kicked if they reach it. |
 | `+message_info` | Inspect a message sent by an user and display some information like the automod logs for this message, the user profile, etc. |
 | `+snipe` | Recover the last deleted message from the channel. Useful if you had seen some spam on the channel that quickly got deleted. |
-| `+purge {arguments}` | Remove messages in bulk. See the [command documentation](using-the-purge-command-to-remove-messages.md) for more information. |
+| `+purge {arguments}` | Remove messages in bulk. See the [command documentation](../tutorials/using-the-purge-command-to-remove-messages.md) for more information. |
 | `+rename [user] <nickname>` | Rename a user with an optional nickname. If nickname is not specified, removes the nickname |
 | `+inspect [user/message/channel/...]` | Provides information about a given ID or name, and try to guess what that object is. |
 {% endtab %}

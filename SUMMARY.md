@@ -8,13 +8,14 @@
 * [QuickStart: Setting up GetBeaned on your server](bot-documentation/tutorial-setting-up-your-server-for-the-first-time.md)
 * [List of commands](bot-documentation/list-of-commands.md)
 * [Levels and permissions](bot-documentation/levels-and-permissions.md)
-* [Report spambots that get past the filter](bot-documentation/report-spambots-that-get-past-the-filter.md)
-* [Using the purge command to remove messages](bot-documentation/using-the-purge-command-to-remove-messages.md)
+* [Topic Switches](bot-documentation/topic-switches.md)
 * [VIP Servers](bot-documentation/vip-servers.md)
 
-## Understanding the Web Interface <a id="understanding-the-webinterface"></a>
+## Tutorials
 
-* [Setting up logging](understanding-the-webinterface/setting-up-logging.md)
+* [Report spambots that get past the filter](tutorials/report-spambots-that-get-past-the-filter.md)
+* [Using the purge command to remove messages](tutorials/using-the-purge-command-to-remove-messages.md)
+* [Setting up logging](tutorials/setting-up-logging.md)
 
 ## Developer documentation <a id="developper-documentation"></a>
 
