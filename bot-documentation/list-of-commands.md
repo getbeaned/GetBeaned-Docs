@@ -18,7 +18,7 @@ For example, in the command `+ban {users} <reason>`, you can ban one or more use
 | :--- | :--- |
 | `+help` | Get a link to this webpage |
 | `+urls <target_member>` | Get the server online logs, and webpages about a specific user. |
-| `+invite` | Get a bot invite link to [install GetBeaned on your server](tutorial-setting-up-your-server-for-the-first-time.md) |
+| `+invite` | Get a bot invite link to [install GetBeaned on your server](../tutorials/tutorial-setting-up-your-server-for-the-first-time.md) |
 | `+info` | Show some information about the bot like the author and essential commands |
 | `+level` | Command to see your [permissions level](levels-and-permissions.md) on a server. |
 | `+ping` | Check the health of the connection between the bot and Discord. |

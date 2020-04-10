@@ -48,7 +48,7 @@ However, you don't have to give GetBeaned permissions to restricted channels whe
 
 #### Permissions
 
-First, add yourself as a [server admin](levels-and-permissions.md). Use the `+add_admin @your_discord_name`command to be able to edit settings on the web interface.
+First, add yourself as a [server admin](../bot-documentation/levels-and-permissions.md). Use the `+add_admin @your_discord_name`command to be able to edit settings on the web interface.
 
 If you have moderators, you can add them all using the command `+add_moderator [a role ID]`to give them moderation permissions on the bot.
 
