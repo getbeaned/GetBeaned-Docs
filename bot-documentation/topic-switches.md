@@ -15,4 +15,5 @@ To use a Topic Switch, add it anywhere in the topic of the desired channel.
 | `[getbeaned:disable_invite_detection]` | Disable detecting invites in a channel |
 | `[getbeaned:disable_spam_detection]` | Disable spam detection, leaving others checks working. \[BETA: Might not work forever\] |
 | `[getbeaned:disable_logging]` | Disable logging in this channel. Deleted/Edited messages won't be logged to message logs. |
+| `[getbeaned:auto_publish]` | If the channel is a news/announcement channel, automatically crosspost/publish messages to subscribed channels. |
 
