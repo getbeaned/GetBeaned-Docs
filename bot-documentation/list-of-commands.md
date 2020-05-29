@@ -41,6 +41,7 @@ Trusted users can also use normal Users commands
 | `+purge {arguments}` | Remove messages in bulk. See the [command documentation](../tutorials/using-the-purge-command-to-remove-messages.md) for more information. |
 | `+rename [user] <nickname>` | Rename a user with an optional nickname. If nickname is not specified, removes the nickname |
 | `+inspect [user/message/channel/...]` | Provides information about a given ID or name, and try to guess what that object is. |
+| `+fake_message [user] [message]` | Sends a message "as if" the specified user sent it. Used as a test for the `+snipe` command. |
 {% endtab %}
 
 {% tab title="Moderators" %}
