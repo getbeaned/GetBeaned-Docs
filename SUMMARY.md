@@ -16,8 +16,8 @@
 * [Levels and permissions](bot-documentation/levels-and-permissions.md)
 * [Topic Switches](bot-documentation/topic-switches.md)
 * [VIP Servers](bot-documentation/vip-servers.md)
+* [Privacy policy](bot-documentation/privacy-policy.md)
 
-## Developer documentation <a id="developper-documentation"></a>
+## Developer documentation <a href="#developper-documentation" id="developper-documentation"></a>
 
 * [The GetBeaned API](developper-documentation/the-getbeaned-api.md)
-

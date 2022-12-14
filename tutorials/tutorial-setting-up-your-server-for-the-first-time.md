@@ -6,19 +6,19 @@ description: Quick primer to get your server protected quickly.
 
 ### Adding GetBeaned to your server
 
-First, we'll have to add GetBeaned to your server. 
+First, we'll have to add GetBeaned to your server.&#x20;
 
 #### Inviting the bot
 
-Please click the following link to add [GetBeaned to your server](https://discordapp.com/oauth2/authorize?client_id=492797767916191745&permissions=201714887&scope=bot).
+Please click the following link to add [GetBeaned to your server](https://discordapp.com/oauth2/authorize?client\_id=492797767916191745\&permissions=201714887\&scope=bot).
 
 {% hint style="info" %}
-Only server admins \(`Administrators`\) can add bots to a server. If you don't see your server in the list, please double-check that you are logged on the right discord account
+Only server admins (`Administrators`) can add bots to a server. If you don't see your server in the list, please double-check that you are logged on the right discord account
 {% endhint %}
 
 Select your server in the list and click the Authorise button
 
-![Please make sure to select the right server :\)](../.gitbook/assets/2019-06-17.14-21-59.png)
+![Please make sure to select the right server :)](../.gitbook/assets/2019-06-17.14-21-59.png)
 
 #### Moving the bot role higher in the list
 
@@ -36,7 +36,7 @@ Click on the green `Save` button, then return to the chat.
 
 Use the `+doctor`command somewhere on the server and pay attention to the`Bot Permissions` embed.
 
-![](../.gitbook/assets/capture-de-cran-2019-06-17-a-14.29.06.png)
+![](<../.gitbook/assets/Capture d’écran 2019-06-17 à 14.29.06.png>)
 
 {% hint style="warning" %}
 If it's red, it means that the bot has some permissions problems on some of the channels. Please check that GetBeaned has the necessary permissions in channels that you want to protect.
@@ -62,7 +62,7 @@ On discord, type `+urls`to get a direct link to your server webpage. If you aren
 {% tab title="The AutoMod" %}
 The automod is already configured. You just have to enable it by clicking the box near Enable AutoMod
 
-![Click that button. Don&apos;t hit submit yet. Check the other tabs first :\)](../.gitbook/assets/2019-06-17.14-38-46.png)
+![Click that button. Don't hit submit yet. Check the other tabs first :)](../.gitbook/assets/2019-06-17.14-38-46.png)
 {% endtab %}
 
 {% tab title="The AutoTriggers" %}
@@ -75,9 +75,9 @@ If your server is targeted by spam bots, or you have/plan to have public invites
 You want to kick accouns that are gonna spam your server even before they start ? **GetBeaned** can do that too! Enable AutoInspect to protect yourself from spam of known bad user bots. Turn on each type of but you want to be protected of by selecting the correct thing for the bot to do : warn admins, kick or ban the user.
 
 {% hint style="warning" %}
-To use AutoInspect, you'll need to setup the logs on your server too. This is described in detail over the Enable Logging page.   
-  
-Tl;Dr: Get the channel ID of a channel you want to log in \(`+channel_id`can help you\), and copy/paste it in the Logs settings page under **AutoInspect logs**. Don't forget to enable logs with the checkbox too. ****
+To use AutoInspect, you'll need to setup the logs on your server too. This is described in detail over the Enable Logging page. \
+\
+Tl;Dr: Get the channel ID of a channel you want to log in (`+channel_id`can help you), and copy/paste it in the Logs settings page under **AutoInspect logs**. Don't forget to enable logs with the checkbox too. ****&#x20;
 {% endhint %}
 {% endtab %}
 
@@ -101,4 +101,3 @@ Return to your discord server and type `+doctor` to be sure that everything is n
 ### Done!
 
 You've finished this tutorial. Your server is now protected by **GetBeaned**. For more info, please join the [support server](https://discord.gg/CnmwaZB).
-

@@ -4,62 +4,58 @@ description: Work in progress
 
 # The GetBeaned API
 
-{% api-method method="post" host="https://getbeaned.api-d.com" path="/api/users/" %}
-{% api-method-summary %}
-Add an user
-{% endapi-method-summary %}
+{% swagger baseUrl="https://getbeaned.api-d.com" path="/api/users/" method="post" summary="Add an user" %}
+{% swagger-description %}
+This endpoint allows you to upload an user data to the website. This is a required step to be able to add actions.
 
-{% api-method-description %}
-This endpoint allows you to upload an user data to the website. This is a required step to be able to add actions.  
-  
+\
+
+
+
+
+\
+
+
 The endpoint will update or create the user automatically.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Update" type="boolean" required=false %}
+{% swagger-parameter in="header" name="Update" type="boolean" %}
 False if we don't want to update the user because the data is stale
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% swagger-parameter in="header" name="Authentication" type="string" %}
 Authentication token supplied on request.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+{% endswagger-parameter %}
 
-{% api-method-form-data-parameters %}
-{% api-method-parameter name="discord\_default\_avatar\_url" type="string" required=true %}
+{% swagger-parameter in="body" name="discord_default_avatar_url" type="string" %}
 Default Discord CDN URL for the user avatar.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="discord\_avatar\_url" type="string" required=true %}
-Discord CDN URL to the PNG \(static\) or WEBP \(animated\) avatar of the user
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="discord_avatar_url" type="string" %}
+Discord CDN URL to the PNG (static) or WEBP (animated) avatar of the user
+{% endswagger-parameter %}
 
-{% api-method-parameter name="discord\_discriminator" type="integer" required=true %}
-The user Discriminator \(Excluding the `#`\)
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="discord_discriminator" type="integer" %}
+The user Discriminator (Excluding the 
 
-{% api-method-parameter name="discord\_name" type="string" required=true %}
+`#`
+
+)
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="discord_name" type="string" %}
 Name of the user
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="discord\_id" type="boolean" required=true %}
+{% swagger-parameter in="body" name="discord_id" type="boolean" %}
 Discord user ID
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="discord\_bot" type="boolean" required=true %}
+{% swagger-parameter in="body" name="discord_bot" type="boolean" %}
 Please set that to True if the user is a bot
-{% endapi-method-parameter %}
-{% endapi-method-form-data-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Cake successfully retrieved." %}
 ```javascript
 {
  'status': 'ok',
@@ -67,53 +63,29 @@ Cake successfully retrieved.
  'result': '[User representation]'
  }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=302 %}
-{% api-method-response-example-description %}
-Error when saving the new user
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="302" description="Error when saving the new user" %}
 ```javascript
 {
     'status': 'error',
     'errors': ['List of errors']
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://getbeaned.api-d.com" path="/api/users/<int:guild\_id>/<int:user\_id>/counters/" %}
-{% api-method-summary %}
-API Users Counter
-{% endapi-method-summary %}
+{% swagger baseUrl="https://getbeaned.api-d.com" path="/api/users/<int:guild_id>/<int:user_id>/counters/" method="get" summary="API Users Counter" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
+{% swagger-parameter in="path" name="" type="string" %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+{% endswagger-parameter %}
 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}
