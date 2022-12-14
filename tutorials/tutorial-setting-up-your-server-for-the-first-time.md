@@ -36,7 +36,7 @@ Click on the green `Save` button, then return to the chat.
 
 Use the `+doctor`command somewhere on the server and pay attention to the`Bot Permissions` embed.
 
-![](<../.gitbook/assets/Capture d’écran 2019-06-17 à 14.29.06.png>)
+![](../.gitbook/assets/capture-de-cran-2019-06-17-a-14.29.06.png)
 
 {% hint style="warning" %}
 If it's red, it means that the bot has some permissions problems on some of the channels. Please check that GetBeaned has the necessary permissions in channels that you want to protect.
